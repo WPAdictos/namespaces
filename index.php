@@ -22,7 +22,7 @@ echo "<br>Listado de un articulo por ID=2 ...<br>";
 print_r($articulos->findById(2));
 
 echo "<br>Listado de un articulo con INNER JOIN.<br>";
-print_r($articulos->getAllCpmplete());
+print_r($articulos->getAllComplete());
 
 //echo "<br>Insertamos un registro nuevo (Devuelve el nuevo ID).<br>";
 //$values=array(

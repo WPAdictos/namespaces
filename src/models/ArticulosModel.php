@@ -18,7 +18,7 @@ class ArticulosModel{
         return $this->conexion->from('articulos', $id)->fetch();
     }
 
-    function getAllCpmplete(){
+    function getAllComplete(){
         return $this->conexion->from('articulos')->select('autores.nombre')->fetchAll();
     }
 
