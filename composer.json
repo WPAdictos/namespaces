@@ -1,0 +1,11 @@
+{
+    "require": {
+        "lichtner/fluentpdo": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { 
+            "src\\lib\\": "./src/lib/",
+            "src\\models\\": "./src/models/"       
+        }
+    }
+}
