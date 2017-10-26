@@ -8,8 +8,14 @@ https://www.sitepoint.com/getting-started-fluentpdo/
 */
 require "./vendor/autoload.php";
 use src\models\ArticulosModel;
+use src\models\AutoresModel;
 
+$autores= new AutoresModel();
+//Consulta basica
+echo "Listado de todos los autores....<br>";
+print_r($autores->getAll());
 
+echo "<hr>";
 
 
 $articulos= new ArticulosModel();
